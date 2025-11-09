@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-filename = 'adaboost_model.pkl'
+filename = 'model.pkl'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
